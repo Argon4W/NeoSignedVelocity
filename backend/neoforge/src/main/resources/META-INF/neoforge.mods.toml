@@ -1,0 +1,31 @@
+license="GPL"
+
+[[mods]]
+
+modId="signedvelocity"
+version="${version}"
+displayName="SignedVelocity"
+displayURL="https://github.com/4drian3d/SignedVelocity"
+logoFile="icon.png"
+authors="4drian3d, Argon4W"
+description='''
+Allows you to cancel or modify messages or commands from Velocity without synchronization problems
+'''
+
+[[mixins]]
+config="signedvelocity.mixins.json"
+
+[[dependencies.signedvelocity]]
+modId="neoforge"
+type="required"
+versionRange="[26.1.2.0,)"
+ordering="NONE"
+side="SERVER"
+
+# Here's another dependency
+[[dependencies.signedvelocity]]
+modId="minecraft"
+type="required"
+versionRange="[26.1, 26.2)"
+ordering="NONE"
+side="SERVER"

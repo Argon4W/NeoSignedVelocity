@@ -13,6 +13,7 @@ pluginManagement {
 
 dependencyResolutionManagement {
     repositories {
+        mavenCentral()
         maven("https://repo.papermc.io/repository/maven-public/")
         maven("https://repo.codemc.io/repository/maven-releases/")
         maven("https://repo.william278.net/velocity/")
@@ -31,6 +32,7 @@ mapOf(
     "signedvelocity-backend-common" to "backend/common",
     "signedvelocity-paper" to "backend/paper",
     "signedvelocity-minestom" to "backend/minestom",
+    "signedvelocity-neoforge" to "backend/neoforge",
     "signedvelocity-fabric" to "backend/fabric",
     "signedvelocity-sponge-common" to "backend/sponge/common",
     "signedvelocity-sponge-10" to "backend/sponge/API-10",

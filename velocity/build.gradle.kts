@@ -1,6 +1,5 @@
 plugins {
     alias(libs.plugins.runvelocity)
-    alias(libs.plugins.idea.ext)
     alias(libs.plugins.blossom)
     alias(libs.plugins.shadow)
 }
